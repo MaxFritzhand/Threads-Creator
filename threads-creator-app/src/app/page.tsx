@@ -4,7 +4,6 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import Highlights from './components/Highlights';
 import Footer from './components/Footer';
-import InfoAlert from './components/InfoAlert';
 const RickRollVideo = dynamic(() => import('./components/RickRollVideo'), { ssr: false });
 const BoltaButton = dynamic(() => import('./components/BoltaButton'), { ssr: false });
 
@@ -16,7 +15,6 @@ export default function HomePage() {
 
        <RickRollVideo /> 
        <BoltaButton />
-       <InfoAlert />
       <Highlights />
       <Footer />
     </div>
