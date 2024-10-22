@@ -1,6 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: 'Threads Creator',
@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className="bg-[#1a1a1a] text-white">
         <div className="container mx-auto px-4 py-8">
           {children}
-          <Analytics />
+           <Analytics />
         </div>
       </body>
     </html>
