@@ -7,9 +7,6 @@
 - **Auto-Generated Highlights:** 
   - Weekly content highlights are automatically generated and ready to be shared.
 
-- **Smart Scheduling:** 
-  - AI-powered scheduling helps optimize your post timing based on engagement trends.
-
 - **Seamless Integration with Bolta:** 
   - Future highlights will be synced to Bolta, providing you with an auto-generated summary. This integration ensures that all your important updates are consolidated into one powerful dashboard.
 
