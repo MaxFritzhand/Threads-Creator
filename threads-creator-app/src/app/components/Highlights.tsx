@@ -5,7 +5,7 @@ import InfoAlert from './InfoAlert';
 const Highlights: React.FC = () => {
   return (
     <div className={styles.highlightsContainer}>
-      <h2 className="text-3xl font-bold mb-6">This Week&apos;ts Highlights</h2>
+      <h2 className="text-3xl font-bold mb-6">This Week&apos;s Highlights</h2>
       <div className={styles.highlightItem}>
         <strong className="text-blue-400">@samaltman</strong>: launches WorldCoin: The Movie where AI characters fight for blockchain dominance in a dystopian world where data is traded like currency.
       </div>
